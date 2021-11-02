@@ -1,3 +1,5 @@
+<?php
+
 function compressHTML($buffer) {
 
     $search = array(
@@ -18,3 +20,5 @@ function compressHTML($buffer) {
 
     return $buffer;
 }
+
+?>
